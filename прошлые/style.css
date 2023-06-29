@@ -1,0 +1,56 @@
+.conteiner{
+    display: flex;
+    justify-content: left;
+    flex-direction: column-reverse;
+    
+    }
+.heading{
+        display:inline;
+        color: aliceblue;
+        background-color: black;
+        align-self: center;
+        font-size: 40px;
+    }
+
+.menu{
+
+       display: flex;
+       list-style-type: none;
+       
+       }
+
+li{
+    margin-right: 20px;
+}
+    
+    
+
+.conteiner2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+.photo{
+    display: flex;
+    
+    width: 350px;
+    
+}
+
+.text{
+    display: flex;
+    color: black; width: 350px; 
+    background-color: red;
+    align-self: center;
+    
+    
+}
+
+iframe{
+    margin-left: 650px;
+    
+}

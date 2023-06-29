@@ -1,0 +1,33 @@
+
+body{
+    max-width: 1366px;
+}
+
+.list{
+    display: flex;
+    column-gap: 40px;
+    
+}
+
+h2{margin-left: 120px;
+}
+
+div{
+    box-shadow: -1em 0 .4em olive;
+}
+
+.red{
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    margin-right: 150px;
+    background-color: red;
+}
+
+.green{
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    margin-right: 150px;
+    background-color: green;
+}

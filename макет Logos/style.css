@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1440px;
+    background:#211F20;
+    height: 1000px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search{
+    display: flex;
+    width: 555px;
+    background: rgba(80, 75, 74, 1);
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 5px;
+
+    
+}
+
+.material-symbols-outlined{
+    color:rgba(207, 207, 207, 1);
+    ;
+}
+
+.wrapper-span-input{
+    display: flex;
+}
+
+.input-search{
+    background-color: #504b4a;
+    color: #cfcfcf;
+    border: none;
+    margin-left: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.contacts{
+    display: flex;
+    align-items: center;
+}
+
+.wrapper-span-phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #618967;
+    color: #cfcfcf;
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+    
+}
+
+.contact-text{
+    margin-left: 15px;
+    color: #cfcfcf;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.counter{
+    position: absolute;
+    margin-top: -42px;
+    margin-left: 115px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 24px;
+    height: 24px;
+    width: 24px;
+}
+
+.text-counter{
+    margin-left: 8px;
+}

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400&family=Sigmar&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo{
+    width: 100px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+h1{
+    display: flex;
+    align-items: center;
+    font-family: 'Carlito', sans-serif;
+    font-family: 'Sigmar', cursive;
+}
+.menu-navigation{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.menu-navigation li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.menu-navigation li{
+    margin-right: 50px;
+    font-family: 'Carlito', sans-serif;
+    font-family: 'Sigmar', cursive;
+    
+
+}
+
+.panel{
+    width: 50px;
+    
+}
+
+.carts-conteiner{
+    display: flex;
+    margin-top: 25px;
+    
+}
+
+.main-wrapper{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.cart-item{
+    width: 150px;
+    margin-right: 50px;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+    font-family: 'Carlito', sans-serif;
+    font-family: 'Sigmar', cursive;
+}
+
+.menu-navigation-footer{
+    display: flex;
+    list-style-type: none;
+    flex-flow: column;
+    margin-left: 100px;
+    margin-top: 100px;
+    /* text-decoration: none; */ не смог убрать подчеркивание
+    
+    
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+footer{
+    margin-top: 50px;
+    font-family: 'Carlito', sans-serif;
+    font-family: 'Sigmar', cursive;
+    background-color: rgb(236, 233, 233);
+    
+    
+    
+   
+}
